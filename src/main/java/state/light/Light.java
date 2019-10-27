@@ -8,7 +8,7 @@ public class Light {
         System.out.println("Current State : " + currentState);
     }
 
-    public void setLightState(LightState state) {
+    public void changeState(LightState state) {
         this.currentState = state;
     }
 

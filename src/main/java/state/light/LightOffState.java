@@ -14,7 +14,7 @@ public class LightOffState implements LightState {
     @Override
     public void pushOnButton(Light light) {
         System.out.println("Light On");
-        light.setLightState(LightOnState.getInstance());
+        light.changeState(LightOnState.getInstance());
     }
 
     @Override
