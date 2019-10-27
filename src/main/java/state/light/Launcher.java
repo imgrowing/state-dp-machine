@@ -5,14 +5,14 @@ public class Launcher {
         LightState lightOffState = LightOffState.getInstance();
         Light light = new Light(lightOffState);
 
-        System.out.println(">>> push on button");
+        System.out.println("\n>>> push on button");
         light.pushOnButton();
-        System.out.println(">>> push on button");
+        System.out.println("\n>>> push on button");
         light.pushOnButton();
 
-        System.out.println(">>> push off button");
+        System.out.println("\n>>> push off button");
         light.pushOffButton();
-        System.out.println(">>> push off button");
+        System.out.println("\n>>> push off button");
         light.pushOffButton();
     }
 }

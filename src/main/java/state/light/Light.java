@@ -13,10 +13,12 @@ public class Light {
     }
 
     public void pushOnButton() {
+        System.out.println("Current State : " + currentState);
         currentState.pushOnButton(this);
     }
 
     public void pushOffButton() {
+        System.out.println("Current State : " + currentState);
         currentState.pushOffButton(this);
     }
 }
